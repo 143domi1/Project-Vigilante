@@ -11,7 +11,7 @@ int main(void) {
     printf("Project Vigilante firmware\n");
     printf("Status: %s\n", status ? "Online" : "Offline");
     printf("Version %.1f\n", version);
-    scan_startup()
+    scan_startup();
     return 0;
 }
 
